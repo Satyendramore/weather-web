@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>wheater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- head -->
+  <div class="heading">
+   <h1> Weather App</h1> 
+  </div>
+
+  <!-- searchbox -->
+   <div class="searchbar">
+    <div class="searchbox">
+        <div class="leftc"></div>
+        <input type="text" placeholder="enter city" id="citynames">
+        <div class="rightc"></div>
+    </div>
+    <div class="searchbox ">
+        <div class="left"></div>
+        <button id="search">enter</button>
+        <div class="right"></div>
+    </div>
+   </div>
+
+    <!-- temperature and city -->
+     <div class="temp">
+        <div class="topdata">
+            <div class="temperature">C</div>
+            <div class="pic"></div>
+        </div>
+        <div class="cityname">XYZ</div>
+     </div>
+   
+     <!-- three section -->
+
+     <div class="last">
+        <div class="kuchbhi">
+            <div class="logo"><i class="fa-solid fa-temperature-low"></i></div>
+            <div class="data humidity">null</div>
+            <div class="dataname">Humidity</div>
+        </div>
+        <div class="kuchbhi">
+            <div class="logo"><i class="fa-solid fa-wind"></i></div>
+            <div class="data Wind">null</div>
+            <div class="dataname">Wind Speed</div>
+        </div>
+        <div class="kuchbhi">
+            <div class="logo"><i class="fa-solid fa-thermometer"></i></div>
+            <div class="data Airpressure">null</div>
+            <div class="dataname">Air pressure</div>
+        </div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
